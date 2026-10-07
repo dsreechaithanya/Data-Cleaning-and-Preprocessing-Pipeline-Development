@@ -1,0 +1,9 @@
+﻿source_record_id,product_name,category,ingredients_text,size,price,rating,review_count,product_name_raw,category_raw,ingredients_raw,ingredients_missing,size_value,size_unit_normalized,size_issue,price_value,currency,price_issue,rating_value,rating_issue,review_count_value,review_count_issue,pipeline_row_number
+S001,Glow Serum,serum,"Aqua, Glycerin",30 ml,$18.00,4.5,42, Glow Serum ,Serum,"Aqua, Glycerin",false,30,mL,,18,USD,,4.5,,42,,2
+S002,Daily Cream,moisturizer,"Aqua, Shea Butter",50ml,USD 24,4.2,80,Daily Cream,Moisturiser,"Aqua, Shea Butter",false,50,mL,,24,USD,,4.2,,80,,3
+S003,Gentle Cleanser,cleanser,"Aqua, Glycerin",150 ml,$12.00,4.1,15,Gentle Cleanser,Cleanser,"Aqua, Glycerin",false,150,mL,,12,USD,,4.1,,15,,4
+S004,Vitamin C Serum,serum,"Aqua, Ascorbic Acid",30 ml,$22.00,8.2,100,Vitamin C Serum,Serum,"Aqua, Ascorbic Acid",false,30,mL,,22,USD,,,rating_out_of_range,100,,5
+S005,Barrier Balm,moisturizer,,40 g,$16.00,,0,Barrier Balm,Moisturizer,,true,40,g,,16,USD,,,rating_missing,0,,6
+S006,Body Lotion,body lotion,"Aqua, Glycerin",200 ml,-3.00,4.0,9,Body Lotion,Body Lotion,"Aqua, Glycerin",false,200,mL,,,,price_negative,4,,9,,7
+S007,Night Oil,face oil,"Squalane, Tocopherol",30mL,USD 28,4.7,"1,200",Night Oil,Face Oil,"Squalane, Tocopherol",false,30,mL,,28,USD,,4.7,,1200,,8
+S008,Sun Cream,sun care,"Aqua, Zinc Oxide",50 ml,$19.00,4.3,76,Sun Cream,Sun Care,"Aqua, Zinc Oxide",false,50,mL,,19,USD,,4.3,,76,,9

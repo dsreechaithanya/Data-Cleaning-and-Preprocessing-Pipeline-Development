@@ -1,0 +1,2 @@
+﻿source_record_id,product_name,category,ingredients_text,size,price,rating,review_count,pipeline_row_number,duplicate_reason
+S001, Glow Serum ,Serum,"Aqua, Glycerin",30 ml,$18.00,4.5,42,10,exact_duplicate

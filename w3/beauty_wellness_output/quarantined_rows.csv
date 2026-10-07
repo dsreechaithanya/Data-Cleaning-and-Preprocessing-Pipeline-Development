@@ -1,0 +1,2 @@
+﻿source_record_id,product_name,category,ingredients_text,size,price,rating,review_count,product_name_raw,pipeline_row_number,quarantine_reason
+S010,,Serum,Aqua,30 ml,$10.00,4.0,2,,11,missing_product_name

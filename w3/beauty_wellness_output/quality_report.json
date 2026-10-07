@@ -1,0 +1,35 @@
+{
+  "run_timestamp_utc": "2026-10-07T01:34:07.332151+00:00",
+  "input_rows": 10,
+  "exact_duplicates_removed": 1,
+  "quarantined_rows": 1,
+  "cleaned_rows": 8,
+  "row_reconciliation_passed": true,
+  "issue_counts": {
+    "exact_duplicate_removed": 1,
+    "ingredients_missing": 1,
+    "missing_product_name": 1,
+    "price_negative": 1,
+    "rating_missing": 1,
+    "rating_out_of_range": 1
+  },
+  "category_counts_after_cleaning": {
+    "body lotion": 1,
+    "cleanser": 1,
+    "face oil": 1,
+    "moisturizer": 2,
+    "serum": 2,
+    "sun care": 1
+  },
+  "missing_ingredient_rate": 0.125,
+  "rating_missing_or_invalid_rate": 0.25,
+  "assumptions": [
+    "Rating validation assumes the source scale is 1 through 5.",
+    "Review-count commas are thousands separators.",
+    "Size conversion is not performed between mass and volume.",
+    "Unmapped category labels are retained after whitespace/case normalization.",
+    "Prices without a currency marker retain an empty currency field.",
+    "Synthetic demonstration records are invented, not real observations."
+  ],
+  "source": "built-in synthetic demonstration"
+}
